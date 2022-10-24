@@ -1,0 +1,8 @@
+[gcp_dyndns]
+gcp_cred_file = /path/to/gcp/service_account_cred_file.json
+project_id = PROJECT NAME
+zone_name = yourdomain-com
+a_record = external.yourdomain.com.
+gce_instance = mygceinstancename
+gce_zone = us-central1-a
+log_file = /var/log/gcp_dyndns.log
