@@ -28,6 +28,15 @@ The bare minimum permissions required are:
 * dns.resourceRecordSets.list
 * dns.resourceRecordSets.update
 
-These can be assigned at the project level
+These can be assigned at the project level assuming your compute instance and dns zones are in the same project.
 
 ## Config file options
+|Config Option|Notes|
+|---|---|
+|gcp_cred_file|Service Account Credential File in JSON format|
+|project_id|Project Name|
+|zone_name|Cloud DNS Zone Name as it appears in the Cloud DNS console (with - instead of . )|
+|a_record|FQDN Cloud DNS zone record DNS name as it appears in the Cloud DNS console|
+|gce_instance|GCE Instance name|
+|gce_zone|The zone where the GCE instance resides|
+|log_file|Full path to the log file you want to output results to|
